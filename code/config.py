@@ -34,8 +34,8 @@ def _get_api_key() -> str:
     key = os.environ.get("GOOGLE_API_KEY") or os.environ.get("GEMINI_API_KEY")
     if key:
         return key.strip()
-    # Check for .env file in REPO_ROOT or parent
-    for env_path in [REPO_ROOT / ".env", REPO_ROOT.parent / ".env"]:
+    # Check for .env file in CODE_DIR, REPO_ROOT or parent
+    for env_path in [CODE_DIR / ".env", REPO_ROOT / ".env", REPO_ROOT.parent / ".env"]:
         if env_path.exists():
             for line in env_path.read_text(encoding="utf-8").splitlines():
                 line = line.strip()
@@ -46,10 +46,10 @@ def _get_api_key() -> str:
 GOOGLE_API_KEY = _get_api_key()
 
 # Model for text (message parsing + explanation generation)
-LLM_MODEL = "gemini-2.0-flash"
+LLM_MODEL = "gemini-3.6-flash"
 
 # Model for vision (image amount extraction)
-VLM_MODEL = "gemini-2.0-flash"
+VLM_MODEL = "gemini-3.6-flash"
 
 # ── Recurrence inference ──────────────────────────────────────────────────────
 # Minimum occurrences in history to consider an expense recurring

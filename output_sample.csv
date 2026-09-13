@@ -1,18 +1,18 @@
 request_id,amount_safe_to_pay,affordability_status,recommended_payment_method,payment_plan,earliest_date_for_full_payment,spending_changes_needed,decision_explanation
-request_01,25256.0,affordable_now,full_payment,2024-03-03:25256.0,2024-03-03,none,Pay ZAR 25256.0 today; this leaves at least ZAR 18000.0 available over the next 90 days.
-request_02,18005438.53,affordable_with_plan,installments,2025-08-08:15952906.67|2025-09-07:15952906.67|2025-10-07:15952906.67,2025-09-15,none,Use 3 installments of IDR 15952906.67; this keeps the balance safe throughout.
-request_03,737733.87,not_affordable,not_recommended,none,2019-11-20,none,Not recommended: paying IDR 5491000.0 would breach the IDR 2668700.0 minimum balance throughout the 90-day forecast.
-request_04,10517119.35,affordable_later,wait,2024-06-15:12693000.0,2024-06-15,none,Paying IDR 12693000.0 today would breach the minimum; wait until 2024-06-15 when the full amount is safe.
-request_05,0.0,not_affordable,not_recommended,none,,none,Not recommended: paying ZAR 15488.0 would breach the ZAR 13100.0 minimum balance throughout the 90-day forecast.
-request_06,519.21,not_affordable,not_recommended,none,2026-01-15,none,Not recommended: paying EUR 620.4 would breach the EUR 800.0 minimum balance throughout the 90-day forecast.
-request_07,95995.94,affordable_with_plan,installments,2024-09-12:68432.0|2024-10-10:68432.0|2024-11-07:68432.0,2024-10-15,none,Use 3 installments of INR 68432.0; this keeps the balance safe throughout.
-request_08,299.25,not_affordable,not_recommended,none,2025-05-08,none,Not recommended: paying EUR 996.6 would breach the EUR 800.0 minimum balance throughout the 90-day forecast.
-request_09,166.61,affordable_now,full_payment,2026-07-04:166.61,2026-07-04,none,Pay EUR 166.61 today; this leaves at least EUR 600.0 available over the next 90 days.
+request_01,25256.0,affordable_now,full_payment,2024-03-03:25256.0,2024-03-03,none,"Pay the full requested amount of 25256.0 ZAR on 2024-03-03, as your balance safely covers it while maintaining your 18000.0 ZAR minimum balance."
+request_02,18005438.53,affordable_with_plan,installments,2025-08-08:15952906.67|2025-09-07:15952906.67|2025-10-07:15952906.67,2025-09-15,none,Pay in installments because only 18005438.53 IDR is safe to pay today to maintain your 29158400.0 IDR minimum balance.
+request_03,737733.87,not_affordable,not_recommended,none,2019-11-20,none,Wait until 2019-11-20 to pay 5491000.0 IDR because only 737733.87 IDR is safe to pay today.
+request_04,10517119.35,affordable_later,wait,2024-06-15:12693000.0,2024-06-15,none,"Wait until 2024-06-15 to pay the full 12693000.0 IDR, as only 10517119.35 IDR is safe to pay today while keeping your minimum balance."
+request_05,0.0,not_affordable,not_recommended,none,,none,Wait to pay the requested 15488.0 ZAR because 0.0 ZAR is safe to pay today.
+request_06,519.21,not_affordable,not_recommended,none,2026-01-15,none,"Wait until 2026-01-15 to pay the requested 620.4 EUR, as only 519.21 EUR is safe to pay today to keep your 800.0 EUR minimum balance."
+request_07,95995.94,affordable_with_plan,installments,2024-09-12:68432.0|2024-10-10:68432.0|2024-11-07:68432.0,2024-10-15,none,Pay in installments because the requested 197400.0 INR exceeds the 95995.94 INR safe to pay today to maintain your 93000.0 INR minimum balance.
+request_08,299.25,not_affordable,not_recommended,none,2025-05-08,none,Pay only 299.25 EUR today and wait until 2025-05-08 for the full 996.6 EUR payment to maintain your 800.0 EUR minimum balance.
+request_09,166.61,affordable_now,full_payment,2026-07-04:166.61,2026-07-04,none,Pay the full 166.61 EUR on 2026-07-04 because your balance of 2231.1 EUR safely covers it while maintaining the 600.0 EUR minimum balance.
 request_10,88346.99,not_affordable,not_recommended,none,2025-03-06,none,Not recommended: paying INR 266700.0 would breach the INR 225400.0 minimum balance throughout the 90-day forecast.
 request_11,12506781.53,affordable_with_plan,full_payment,2025-05-03:13110000.0,2025-05-15,reduce_to:event_948:755250.0|reduce_to:event_989:665950.0,Pay IDR 13110000.0 today after reducing flexible spending; this keeps the balance above IDR 34140600.0.
 request_12,61226.96,not_affordable,not_recommended,none,2026-07-04,none,Not recommended: paying ZAR 65164.0 would breach the ZAR 43200.0 minimum balance throughout the 90-day forecast.
-request_13,517.05,not_affordable,not_recommended,none,2024-06-05,none,Not recommended: paying EUR 941.6 would breach the EUR 1300.0 minimum balance throughout the 90-day forecast.
-request_14,620.79,not_affordable,not_recommended,none,2025-11-02,none,Not recommended: paying EUR 5414.2 would breach the EUR 2200.0 minimum balance throughout the 90-day forecast.
+request_13,517.05,not_affordable,not_recommended,none,2024-06-05,none,Wait until 2024-06-05 to pay the full 941.6 EUR because you can safely pay only 517.05 EUR today to maintain your 1300.0 EUR minimum balance.
+request_14,620.79,not_affordable,not_recommended,none,2025-11-02,none,"Wait until 2025-11-02 to make the full payment of 5414.2 EUR, as only 620.79 EUR is safe to pay today."
 request_15,6.52,not_affordable,not_recommended,none,2026-04-06,none,Not recommended: paying EUR 3685.0 would breach the EUR 1200.0 minimum balance throughout the 90-day forecast.
 request_16,122500.0,affordable_now,full_payment,2023-08-12:122500.0,2023-08-12,none,Pay INR 122500.0 today; this leaves at least INR 122400.0 available over the next 90 days.
 request_17,259749.99,affordable_with_plan,installments,2026-03-01:95194.67|2026-03-31:95194.67|2026-04-30:95194.67,2026-03-15,none,Use 3 installments of INR 95194.67; this keeps the balance safe throughout.
