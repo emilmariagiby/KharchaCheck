@@ -1,0 +1,24 @@
+=== Buy or Wait? — Financial Decision Agent ===
+Run timestamp: 2026-09-13T09:03:11.358372
+
+Pipeline:
+  1. Data loaded: 250 requests, 25000+ events across 5 currencies
+  2. Image extraction: VLM-based (cached, 16 images processed)
+  3. Message resolution: LLM-based amendment extraction (per-user cache)
+  4. Recurrence inference: Monthly + weekly patterns from historical events
+  5. 90-day cash flow simulation: deterministic, daily balance tracking
+  6. Binary search for max_safe_amount (25 iterations)
+  7. Strategy generation: FULL / PARTIAL / INSTALLMENTS / WAIT / CUT_FLEXIBLE
+  8. Official ranking: 6-criteria lexicographic sort
+  9. Explanation: LLM fallback to rule-based
+
+Results:
+  Total requests processed: 250
+  Errors: 0
+  Status distribution:
+    affordable_now: 52
+    affordable_with_plan: 53
+    affordable_later: 40
+    not_affordable: 105
+
+=== End of log ===
