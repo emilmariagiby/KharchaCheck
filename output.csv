@@ -177,7 +177,7 @@ request_200,21717000.0,affordable_now,full_payment,2025-02-06:21717000.0,2025-02
 request_201,23997000.0,affordable_now,full_payment,2026-04-03:23997000.0,2026-04-03,none,Pay IDR 23997000.0 today; this leaves at least IDR 17304500.0 available over the next 90 days.
 request_202,123900.0,affordable_now,full_payment,2024-12-05:123900.0,2024-12-05,none,Pay INR 123900.0 today; this leaves at least INR 147800.0 available over the next 90 days.
 request_203,1442.1,affordable_with_plan,installments,2025-05-10:499.93|2025-06-07:499.93|2025-07-05:499.93,2025-05-07,none,Use 3 installments of EUR 499.93; this keeps the balance safe throughout.
-request_204,571.56,affordable_with_plan,full_payment,2026-01-04:588.74,2026-01-15,reduce_to:event_18827:33.0,Pay EUR 588.74 today after reducing flexible spending; this keeps the balance above EUR 1300.0.
+request_204,571.56,affordable_later,wait,2026-01-15:588.74,2026-01-15,none,Paying EUR 588.74 today would breach the minimum; wait until 2026-01-15 when the full amount is safe.
 request_205,10621000.0,affordable_now,full_payment,2024-03-06:10621000.0,2024-03-06,none,Pay IDR 10621000.0 today; this leaves at least IDR 13994300.0 available over the next 90 days.
 request_206,1404.7,affordable_with_plan,installments,2025-08-03:486.96|2025-08-31:486.96|2025-09-28:486.96,2025-08-03,none,Use 3 installments of EUR 486.96; this keeps the balance safe throughout.
 request_207,4354.29,affordable_later,wait,2026-07-15:11830.0,2026-07-15,none,Paying ZAR 11830.0 today would breach the minimum; wait until 2026-07-15 when the full amount is safe.
