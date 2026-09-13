@@ -279,9 +279,9 @@ def _rank_key(plan: PaymentPlan) -> tuple:
     first_date = min(d for d, _ in plan.payments) if plan.payments else date.max
     return (
         0 if plan.completes_by_deadline else 1,    # 1. completes by desired_completion_date
-        plan.total_amount_paid,                     # 2. minimize total amount paid (fees/interest)
-        first_date,                                 # 3. start payment earlier (pay today vs wait)
-        len(plan.spending_cuts),                    # 4. fewer spending changes
+        0 if not plan.spending_cuts else 1,        # 2. no spending changes needed first
+        plan.total_amount_paid,                     # 3. minimize total amount paid (fees/interest)
+        first_date,                                 # 4. start payment earlier (pay today vs wait)
         len(plan.payments),                         # 5. fewer payments
         plan.payment_option_id or "zzz",            # 6. lowest payment_option_id
     )
